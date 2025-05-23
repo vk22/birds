@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="10px" viewBox="0 0 5 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Index" transform="translate(-274.000000, -2177.000000)" stroke="$mainColor">
+            <g id="Group-9" transform="translate(165.000000, 1826.000000)">
+                <polyline id="Path" transform="translate(111.181818, 356.000000) rotate(-90.000000) translate(-111.181818, -356.000000) " points="115.181818 353.818182 111.181818 358.181818 107.181818 353.818182"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"birds.abouts"}],"uuid":"b69d78f686694f4b9e40bba0aa035f0e"}

@@ -1,55 +1,70 @@
 <template>
-  <div>
+   <div class="page-container" v-bind:class="{visible: isShow}">
+    <main-header></main-header>
     <nuxt />
+    <page-footer></page-footer>
   </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<script>
+import utils from '~/utils/utils.js'
+import MainHeader from '~/components/Header.vue'
+import PageFooter from '~/components/Footer'
+
+export default {
+  components: {
+    MainHeader,
+    PageFooter
+  },
+  data() {
+    return {
+      isShow: true,
+    }
+   
+  },
+  methods: {
+    handleScroll() {
+      this.utils.handleScroll()
+    }
+  },
+  mounted() {
+    this.handleScroll()
+    document.addEventListener('scroll', this.handleScroll)
+  },
+  created() {
+    this.utils = utils
+  },
+  destroyed() {
+    document.removeEventListener("scroll", this.handleScroll);
+  },
+  computed: {
+
+  },
+  watch: {
+    $route(to, from) {
+      setTimeout(() => {
+        this.handleScroll()
+      }, 500);
+    },
+  }
+}
+</script>
+
+
+
+<style lang="scss">
+
+@import 'assets/scss/main.scss';
+
+.page-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
+.inner-page {
+   flex: 1;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>
+

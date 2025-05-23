@@ -1,0 +1,44 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600');
+
+
+@mixin for-small-phone-only {
+  @media (max-width: 320px) { @content; }
+}
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+@mixin for-min-height-only {
+  @media (max-height: 699px) and (min-width: 600px) { @content; }
+}
+@mixin for-all-height-up {
+  @media (min-height: 700px) { @content; }
+}
+
+
+$font-stack: 'Noto Sans Display', sans-serif;
+$font-text: 'Noto Sans Display', sans-serif;
+$text-color: #111;
+$mainColorText: #483949;
+$text-color-white: #fff;
+$mainColor: #483949;
+$mainColorHover: #312332; 
+$textMainColor: #483949;
+$grey: #9B9B9B;
+$backgroundBlue: #f3f5f9;
+
+@mixin base-transition ($property, $dur: 0.5s, $delay: 0s){
+  transition: $property $dur ease-in-out $delay;
+}

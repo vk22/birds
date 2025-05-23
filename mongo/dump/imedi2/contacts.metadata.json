@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"imedi2.contacts"}],"uuid":"4564e46f54f54e8e9405c86c9777aa82"}
