@@ -1,0 +1,646 @@
+[{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf208"
+  },
+  "lot": 201,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Смешанная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 2100,
+  "price": 1111212121212,
+  "cover": "/img/lot-plan.png",
+  "__v": 1,
+  "advanced": [],
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf209"
+  },
+  "lot": 202,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 102.42,
+  "price": 222,
+  "cover": "/img/lot-plan.png",
+  "__v": 1,
+  "advanced": [],
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20a"
+  },
+  "lot": 203,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    13
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 1506.91,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20b"
+  },
+  "lot": 204,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "floorNum": [
+    10
+  ],
+  "entry": "Нет",
+  "finishing": "Нет",
+  "furniture": "Нет",
+  "square": 715.53,
+  "price": 75000,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20c"
+  },
+  "lot": 205,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Смешанная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Нет",
+  "furniture": "Нет",
+  "square": 309.65,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20d"
+  },
+  "lot": 401,
+  "projectID": 4,
+  "type": "Склад",
+  "planType": "Смешанная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 746.9,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20e"
+  },
+  "lot": 402,
+  "projectID": 4,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 226,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf20f"
+  },
+  "lot": 403,
+  "projectID": 4,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 113.56,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf210"
+  },
+  "lot": 701,
+  "projectID": 7,
+  "type": "Склад",
+  "planType": "Смешанная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 863.78,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf211"
+  },
+  "lot": 702,
+  "projectID": 7,
+  "type": "Склад",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 2000.82,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf212"
+  },
+  "lot": 703,
+  "projectID": 7,
+  "type": "Склад",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 417.7,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf213"
+  },
+  "lot": 704,
+  "projectID": 7,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    3
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 38.19,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf214"
+  },
+  "lot": 705,
+  "projectID": 7,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Нет",
+  "furniture": "Нет",
+  "square": 68.36,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf215"
+  },
+  "lot": 706,
+  "projectID": 7,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Нет",
+  "furniture": "Нет",
+  "square": 37,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf216"
+  },
+  "lot": 601,
+  "projectID": 6,
+  "type": "Склад",
+  "planType": "Открытая",
+  "floorNum": [
+    2
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 993.76,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf217"
+  },
+  "lot": 602,
+  "projectID": 6,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 17.11,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf218"
+  },
+  "lot": 603,
+  "projectID": 6,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 998.56,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf219"
+  },
+  "lot": 501,
+  "projectID": 5,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 32.6,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21a"
+  },
+  "lot": 502,
+  "projectID": 5,
+  "type": "Офис",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 14.1,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21b"
+  },
+  "lot": 503,
+  "projectID": 5,
+  "type": "Склад",
+  "subType": "Холодный",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 801.2,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21c"
+  },
+  "lot": 504,
+  "projectID": 5,
+  "type": "Склад",
+  "subType": "Теплый",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 310.28,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21d"
+  },
+  "lot": 505,
+  "projectID": 5,
+  "type": "Склад",
+  "subType": "Теплый",
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 1063.32,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21e"
+  },
+  "lot": 301,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Смешанная",
+  "floorNum": [
+    1,
+    2
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 3599.09,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf21f"
+  },
+  "lot": 302,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Смешанная",
+  "floorNum": [
+    2
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 1047.98,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf220"
+  },
+  "lot": 303,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Кабинетная",
+  "floorNum": [
+    2
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 273.51,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf221"
+  },
+  "lot": 304,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Кабинетная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 82.7,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf222"
+  },
+  "lot": 305,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Открытая",
+  "floorNum": [
+    1
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 30.41,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf223"
+  },
+  "lot": 306,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Смешанная",
+  "floorNum": [
+    4
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 1085.31,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf224"
+  },
+  "lot": 307,
+  "projectID": 3,
+  "type": "Офис",
+  "subType": null,
+  "planType": "Смешанная",
+  "floorNum": [
+    3
+  ],
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 124.87,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f69b5d845675b0c0dbcf225"
+  },
+  "lot": 308,
+  "projectID": 3,
+  "type": "Под общепит",
+  "subType": null,
+  "planType": "Смешанная",
+  "floorNum": [
+    1,
+    2
+  ],
+  "entry": "Да",
+  "finishing": "Нет",
+  "furniture": "Нет",
+  "square": 894.99,
+  "price": 0,
+  "cover": "",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5f7f15095016337fa1c24f65"
+  },
+  "lot": 801,
+  "projectID": 8,
+  "type": "Офис",
+  "planType": "Смешанная",
+  "floorNum": [
+    1
+  ],
+  "entry": "Да",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 2100,
+  "price": 0,
+  "cover": "/img/lot-plan.png",
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5fce479ced23ff11350d8f9d"
+  },
+  "floorNum": [
+    1
+  ],
+  "advanced": [],
+  "lot": 333333,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 102.42,
+  "price": 1111111,
+  "__v": 0,
+  "metro": "Студенческая"
+},
+{
+  "_id": {
+    "$oid": "5fce523830906811ba13cb17"
+  },
+  "floorNum": [
+    1
+  ],
+  "advanced": [],
+  "lot": 44444,
+  "projectID": 2,
+  "type": "Офис",
+  "planType": "Кабинетная",
+  "entry": "Нет",
+  "finishing": "Да",
+  "furniture": "Нет",
+  "square": 102.42,
+  "price": 99999,
+  "__v": 0,
+  "metro": "Студенческая"
+}]

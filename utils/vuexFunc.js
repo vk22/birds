@@ -6,7 +6,7 @@ function getLotMainType(lot) {
     mainType = 'warehouses'
   } else if (lot.type.toUpperCase().includes('ПСН')) {
     mainType = 'psn'
-  } else if (lot.type.toUpperCase().includes('СТОЛОВАЯ') || page.type.toUpperCase().includes('МАГАЗИН')) {
+  } else if (lot.type.toUpperCase().includes('СТОЛОВАЯ') || lot.type.toUpperCase().includes('МАГАЗИН')) {
     mainType = 'retail'
   }
   return mainType

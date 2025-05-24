@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "602b752fdfb57a86d2d7ea00"
+  },
+  "phone": "+7 495 9099888",
+  "address": "5-ый Донской проезд, д. 15",
+  "email": "info@imedimc.ru",
+  "email2": "rent@imedimc.ru",
+  "__v": 3,
+  "emailsForOrders": [
+    "savelyeva_ae@imedimc.ru",
+    "rent@imedimc.ru"
+  ]
+}]

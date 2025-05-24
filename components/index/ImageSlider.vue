@@ -4,7 +4,7 @@
       <SliderSlides>
         <SliderSlide v-for="slide in slides" :key="slide.image" class="ImageSlider__slide">
         
-        <div class="slide-content" ref="slideContent">
+        <div class="slide-content" ref="slideContent" v-if="slide">
           <div class="container">
             <b-row>
               <div class="col left slideUp fade-in">

@@ -1,6 +1,6 @@
 module.exports = {
   port: 8443,
-  dbURL: 'mongodb://localhost:27017/birds',
+  dbURL: 'mongodb+srv://vercel-admin-user:akGL1pJbnrbhU03Y@cluster0.ly3sl.mongodb.net/birds',
   dbOptions: { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true },
   jwtToken: '7383dj2948fk0',
   emailTransport: {

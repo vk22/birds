@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "602bda56dfb57a86d2d7ea01"
+  },
+  "id": "offices",
+  "title": "Офисы",
+  "subtitle": "От 6000 руб/мес",
+  "url": "/rent/offices",
+  "image": "index-offices.jpg"
+},
+{
+  "_id": {
+    "$oid": "602bda56dfb57a86d2d7ea02"
+  },
+  "id": "warehouses",
+  "title": "Склады",
+  "subtitle": "От 5000 руб/мес",
+  "url": "/rent/warehouses",
+  "image": "index-warehouses.jpg"
+},
+{
+  "_id": {
+    "$oid": "602bda56dfb57a86d2d7ea03"
+  },
+  "id": "retail",
+  "title": "Кафе быстрого питания",
+  "subtitle": "От 14000 руб/мес",
+  "url": "/rent/psn",
+  "image": "index-retail.jpg"
+}]

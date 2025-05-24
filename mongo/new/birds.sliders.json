@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "602655863fc18539dd287183"
+  },
+  "mainPhrase": "<p>Специальные условия по аренде офисов, складов и <span style=\"color: rgb(34, 34, 34);\">помещений свободного назначения</span></p>",
+  "phrases": [
+    {
+      "id": 1,
+      "text": "<p><strong>8</strong> объектов <em>в Москве и регионах России</em></p>"
+    },
+    {
+      "id": 2,
+      "text": "<p><span style=\"color: rgb(34, 34, 34);\">Более </span><strong style=\"color: rgb(34, 34, 34);\">25 000 кв. м.</strong><span style=\"color: rgb(34, 34, 34);\"> офисных, складских и свободного назначения помещений </span><em style=\"color: rgb(34, 34, 34);\">в аренду</em></p>"
+    },
+    {
+      "id": 3,
+      "text": "<p>От <strong>6 000 р.</strong> за 1 кв. м. аренда <em>офисов</em></p>"
+    },
+    {
+      "id": 4,
+      "text": "<p>От <strong>5 000 р</strong>. за 1 кв. м. аренда <em>складов</em></p>"
+    },
+    {
+      "id": 5,
+      "text": "<p><span style=\"color: rgb(34, 34, 34);\">От </span><strong style=\"color: rgb(34, 34, 34);\">14 000 р</strong><span style=\"color: rgb(34, 34, 34);\">. за 1 кв. м. аренда </span><em style=\"color: rgb(34, 34, 34);\">кафе быстрого питания</em></p>"
+    }
+  ],
+  "imageBackground": "IMG-20210411-WA0000.jpg",
+  "__v": 17
+}]

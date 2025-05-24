@@ -31,10 +31,10 @@ export const state = () => ({
       //console.log('nuxtServerInit ')
       await dispatch('getLotCategories');
       await dispatch('getProjects', authTokenLocal);
-      await dispatch('getLots');
+      //await dispatch('getLots');
       await dispatch('getPromos');
       await dispatch('getSlider');
-      await dispatch('getCompany');
+      // await dispatch('getCompany');
       await dispatch('getAbout');
       
     },
@@ -56,7 +56,7 @@ export const state = () => ({
       commit('SET_PROJECTS', data.projects)
     },
     async getLots ({ commit, state }) {
-      const { data } = await axios.get(`${state.host.baseURL}api/lots/`, { params: { mode: 'free' } })
+      const { data } = await axios.get(`${state.host.baseURL}api/lots/`, { params: { mode: 'all' } })
       commit('SET_LOTS', data.lots)
     },
     async getSlider ({ commit, state })  {
@@ -96,13 +96,16 @@ export const mutations = {
       lots.map (lot => {
         lot.mainType = vuexFunc.getLotMainType(lot)
         const lotProject = state.projects.find( project => project.guid == lot.project_guid)
-        lot.project = lotProject
-        lot.metro = lotProject.metro
-        lot.city = lotProject.city
-        const lotCategories = state.lotCategories.find( cat => cat.id === lot.mainType)
-        if (lotCategories) {
-          lot.crumbs = vuexFunc.getBreadcrumbs(lot, lotCategories)
+        if (lotProject) {
+          lot.project = lotProject
+          lot.metro = lotProject.metro
+          lot.city = lotProject.city
+          const lotCategories = state.lotCategories.find( cat => cat.id === lot.mainType)
+          if (lotCategories) {
+            lot.crumbs = vuexFunc.getBreadcrumbs(lot, lotCategories)
+          }
         }
+
       })
     }
     state.lots = lots
